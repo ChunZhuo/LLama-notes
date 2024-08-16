@@ -1,6 +1,7 @@
 # LLama-notes
+### This repo should be transfer into a blog later
 All notes from llama 3 training report
-
+https://ai.meta.com/research/publications/the-llama-3-herd-of-models/
 _______________
 
 Model Architecture:
