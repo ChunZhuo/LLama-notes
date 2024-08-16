@@ -23,4 +23,5 @@ https://arxiv.org/pdf/2302.13971
    $$Swish_{\beta}(x) = x\sigma({\beta}x)$$
    
 **SwishGLU has state of the art performance along the most benchmarkings** 
-5. **Rotary PE**: https://arxiv.org/pdf/2104.09864
+
+4. **Rotary PE**: https://arxiv.org/pdf/2104.09864
