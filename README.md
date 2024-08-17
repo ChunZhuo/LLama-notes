@@ -26,7 +26,7 @@ https://arxiv.org/pdf/2302.13971
 
 3. **Rotary PE**: https://arxiv.org/pdf/2104.09864
 	Best approach before:
-   $$q_{m}^{T}k_{n} = x_{m}^{T}W_{q}^{T}W_{k}x_{n}$$
+   $$q_{m}^{T}k_{n} = x_{m}^{T}W_{q}^{T}W_{k}x_{n}+x_{m}^{T}W_{q}^{T}W_{k}\tilde{p}_{m-n}$$
    
 	RoPE: Derive relative positional encoding from attention.
 
