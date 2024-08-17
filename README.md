@@ -25,10 +25,11 @@ https://arxiv.org/pdf/2302.13971
    **SwishGLU has state of the art performance along the most benchmarkings** 
 
 3. **Rotary PE**: https://arxiv.org/pdf/2104.09864
-	Best approach before:
+   Best approach before:
 
 $$q_{m}^{T}k_{n} = x_{m}^{T}W_{q}^{T}W_{k}x_{n}+x_{m}^{T}W_{q}^{T}W_{k}\tilde{p}_{m-n}+\tilde{p}_{m-n}^{T}W_{q}^{T}W_{k}x_{n}$$
-	RoPE: Derive relative positional encoding from attention.
+
+   RoPE: Derive relative positional encoding from attention.
 
 $$R_{\Theta,m}^{d}\mathbf{x}=
    \begin{pmatrix} x_1 \\ 
